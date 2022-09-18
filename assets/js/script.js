@@ -3,12 +3,13 @@ $(document).ready(function () {
     silder.owlCarousel({
         autoPlay: false,
         items: 1,
-        center: false,
+        center: true,
         nav: true,
         margin: 40,
         dots: false,
         loop: true,
-        navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
+        navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", 
+        "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
         responsive: {
             0: {
                 items: 1,
